@@ -2,45 +2,47 @@ import React from 'react';
 import NavLink from './NavLink';
 import styled from 'styled-components';
 import { GlobalStyle } from '../assets/fonts/fonts';
+import thunder from "../assets/images/thunder.png";
 
-const Container = styled.div`
+export const Container = styled.div`
     margin: auto;
-    max-width: 600px;
+    max-width: 960px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 `;
 
-const Li = styled.li `
-    display: inline-block;    
-    list-style-type: none;
-    padding: 30px;
-`;
-
-const Navbar = styled.nav`
-    height: 3%;
+export const Navbar = styled.nav`
     width: 100%;
-    background-color: rgb(3,7,30);
+    background-color: snow;
+
 `
 
-const Ul = styled.ul`
-    display: block;
+export const Ul = styled.ul`
+    display: flex;
+    flex-direction: row;
+    height: 100%;
 `;
 
 
+export const Li = styled.li`
+    list-style-type: none;
+    height: 100%;
+`;
 
 const Header = () => {
     return (
         <Navbar>
             <GlobalStyle/>
             <Container>
+                <NavLink className="nav__logo" to="/"><img src={thunder} alt="Web site logo" className="header__logo"></img></NavLink>
                 <Ul>
-                    <Li><NavLink to="/">Home</NavLink></Li>
-                    <Li><NavLink to="about">About</NavLink></Li>
-                    <Li><NavLink to="projects">Projects</NavLink></Li>
-                    <Li><NavLink to="blog">Blog</NavLink></Li>
-                    <Li><NavLink to="contact">Contact</NavLink></Li>
+                    <Li><NavLink className="nav__item" to="/">Home</NavLink></Li>
+                    <Li><NavLink className="nav__item" to="about">About</NavLink></Li>
+                    <Li><NavLink className="nav__item" to="projects">Projects</NavLink></Li>
+                    <Li><NavLink className="nav__item" to="blog">Blog</NavLink></Li>
+                    <Li><NavLink className="nav__item" to="contact">Contact</NavLink></Li>
                 </Ul>
             </Container>
         </Navbar>
