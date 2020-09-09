@@ -26,11 +26,11 @@ export const GlobalStyle = createGlobalStyle`
     background-color: #2A272F;
   }
   
-  ul {
-      padding: 0;
-      margin: 0;
+  h1,h2,h3,h4,ul,p {
+    margin: 0;
+    padding: 0;
   }
-
+  
   a {
     text-decoration: none;
     font-size: 20px;
@@ -71,4 +71,19 @@ export const GlobalStyle = createGlobalStyle`
     margin-right: 50px;
   }
 
+  .main-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+
+  .fab {
+     font-size: 60px;
+     color: #5C7AFF;
+     padding: 0 25px 0 0;
+  }
+
+  .fab:hover {
+    color: coral;
+  }
 `;
