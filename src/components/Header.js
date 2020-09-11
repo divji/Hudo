@@ -6,7 +6,7 @@ import thunder from "../assets/images/thunder.png";
 
 export const Container = styled.div`
     margin: auto;
-    max-width: 960px;
+    max-width: 1170px;
     display: flex;
     flex-direction: row;
     align-items: center;

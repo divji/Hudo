@@ -86,4 +86,19 @@ export const GlobalStyle = createGlobalStyle`
   .fab:hover {
     color: coral;
   }
+
+  .personal {
+    color: #5C7AFF;
+    font-size: 30px;
+  }
+
+  .heading_span {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .current {
+    color: coral;
+  }
 `;
