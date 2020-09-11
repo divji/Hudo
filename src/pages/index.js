@@ -47,6 +47,44 @@ export const ParagraphDescription = styled.p`
   color: snow;
   line-height: 50px;
   width: 80%;
+  margin-bottom: 40px;
+
+  @media(max-width: 768px) {
+    margin: 20px 0 20px 0;
+    font-size:35px;
+    
+    .heading_span {
+      font-size: 30px;
+    }
+    .personal {
+      font-size: 25px;
+      display: inline;
+    }
+
+    .current{
+      font-size: 25px;
+    }
+    span {
+      font-size: 20px;
+    }
+
+    @media(max-width: 630px) {
+      font-size: 20px;
+      
+      .heading_span {
+        font-size: 30px;
+      }
+      .personal {
+        font-size: 25px;
+        display: inline;
+      }
+  
+      .current{
+        font-size: 25px;
+      }
+      span {
+        font-size: 20px;
+      }
 `
 
 export default function Home() {

@@ -30,6 +30,13 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+
+  button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
   
   a {
     text-decoration: none;
@@ -100,5 +107,23 @@ export const GlobalStyle = createGlobalStyle`
 
   .current {
     color: coral;
+  }
+
+  @media(max-width: 768px) {
+    a {
+    
+    }
+    .nav__logo {
+      display: flex;
+    }
+
+    .fab {
+      display: inline;  
+   }
+
+   .nav__item {
+      display: flex;
+      justify-content: center;
+   }
   }
 `;
