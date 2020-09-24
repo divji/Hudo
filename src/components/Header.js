@@ -12,7 +12,6 @@ export const Container = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
 `;
 
 export const Navbar = styled.nav`

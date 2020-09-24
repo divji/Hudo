@@ -6,6 +6,8 @@ module.exports = {
   },  
   plugins: [
     `gatsby-plugin-styled-components`,
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -23,6 +25,14 @@ module.exports = {
         // Any invalid keyword or empty string defaults to `anonymous`
         crossOrigin: `use-credentials`,
       },
-    } 
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/articles/`,
+        name: `src`
+      }
+    },
+
   ]
 }
