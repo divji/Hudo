@@ -25,7 +25,7 @@ export const ProjectLink = styled.a`
 
 export const ProjectImage = styled.div`
     width: 50px;
-    height: 50px;
+    height: auto;
 
     img {
         width: 100%;
@@ -39,16 +39,17 @@ export const CardContent = styled.div`
 `;
 
 export const ProjectTitle = styled.div`
-    color: red;
+    color: snow;
     text-align: left;
     display: flex;
     flex-direction: column;
+    font-weight: bold;
 `;
 
 export const ProjectSubtitle = styled.div`
-    color: red;
+    color: snow;
     text-align: left;
-    padding: 10px 0 10px 0;
+    padding: 15px 0 20px 0;
 `;
 
 export const ProjectTagContainer = styled.div`
@@ -58,11 +59,12 @@ export const ProjectTagContainer = styled.div`
 export const ProjectTag = styled.span`
     height: 20px;
     width: 20px;
-    background-color: green;
-    color: snow;
-    border: 1px solid red;
+    background-color: #2A272F;
+    color: coral;
+    border: 1px solid snow;
     margin: 0 0 0 10px;
     padding: 5px;
+    
     &:first-child {
         margin: 0;
     }

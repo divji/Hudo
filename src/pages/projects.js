@@ -33,10 +33,7 @@ export default function Projects() {
         <Layout>
             <ColumnContainer>
                 <HeadingProjects>Projects</HeadingProjects>
-                <Card link="https://chelsea.com" image={<img src={thunder}></img>} title="Blog" subtitle="Blog using Gatsby" tags={["Gatsby", "PWA"]}></Card>
-                <Card link="https://google.com" image={<img src={thunder}></img>} title="Blog" subtitle="Blog using Gatsby" tags={["Gatsby", "PWA"]}></Card>
-                <Card link="https://google.com" image={<img src={thunder}></img>} title="Blog" subtitle="Blog using Gatsby" tags={["Gatsby", "PWA"]}></Card>
-                <Card link="https://google.com" image={<img src={thunder}></img>} title="Blog" subtitle="Blog using Gatsby" tags={["Gatsby", "PWA"]}></Card>
+                <Card link="https://kolesnik1vladislav.github.io/PIG_GAME/" image={<img src={thunder}></img>} title="Blog" subtitle="Blog using Gatsby" tags={["JS", "CSS"]}></Card>
             </ColumnContainer>     
         </Layout>
     )

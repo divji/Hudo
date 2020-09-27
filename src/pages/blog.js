@@ -27,7 +27,10 @@ export const BlogPostContainer = styled.div`
   margin: 0 0 25px 0;
   
   @media(max-width: 968px) {
-    width: 100%;
+    width: 70%;
+
+  @media(max-width: 650px) {
+    width: 100%; 
 }
 
 &:hover {
@@ -38,33 +41,36 @@ export const BlogPostContainer = styled.div`
 &:last-child {
     margin: 0;
 }
-
-@media(max-width: 768px) {
-    width: 100%;
-}
 `
 
 export const BlogPostImage = styled.img`
-    width: 90px;
-    height: 90px;
+    width: 25%;
+    height: auto;
 
-    img {
-        width: 100%;
-    }
+    @media(max-width: 448px) {
+      width: 35%;
 `;
 
 export const BlogPostContent = styled.div`
     flex-direction: row;
     justify-content: start;
     margin: 0 0 0 20px; 
+
+    a {
+      color: coral;
+      font-weight: bold;
+    }
 `;
 
 export const BlogPostTitle = styled.div`
-    color: red;
+    color: snow;
     text-align: left;
     display: flex;
     flex-direction: column;
     font-size: 25px;
+
+    @media(max-width: 448px) {
+      font-size: 16px;
 `;
 
 export const BlogPostSubtitle = styled.div`
@@ -76,9 +82,9 @@ export const BlogPostSubtitle = styled.div`
 export const BlogPostTag = styled.span`
     height: 20px;
     width: 20px;
-    background-color: green;
-    color: snow;
-    border: 1px solid red;
+    background-color: #2A272F;
+    color: coral;
+    border: 1px solid snow;
     margin: 0 0 0 10px;
     padding: 5px;
     &:first-child {

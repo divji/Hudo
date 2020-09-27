@@ -110,9 +110,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   @media(max-width: 768px) {
-    a {
-    
-    }
     .nav__logo {
       display: flex;
     }

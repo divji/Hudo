@@ -10,15 +10,26 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    h1 {
+      color: snow;
+      margin: 40px 0 20px 0;
+    }
+
+    @media(max-width: 600px) {
+      h1 {
+        font-size: 25px;
+      }
+    }
 `;
 
 export const Content = styled.div`
     text-align: left;
     color: snow;
-    width: 70%;
+    width: 80%;
     font-size: 25px;
 
-    h1, h2 {
+    h2 {
       padding: 20px;
       text-align: center;
     }
@@ -33,19 +44,22 @@ export const Content = styled.div`
       list-style-type: disc;
     }
 
+    a {
+      color: #5C7AFF
+    }
+
     p {
       padding: 20px;
     }
 
-    pre {
-      background-color: snow;
-      padding: 20px;
-    }
-
-    code {
+    .code {
       color: coral;
       font-weight: bold;
       font-size: 20px;
+      display: block;
+      background-color: snow;
+      padding: 20px;
+      line-height: 30px; 
     }
 
     img {
@@ -53,6 +67,35 @@ export const Content = styled.div`
       display: block;
       margin: 0 auto;
     }
+
+    @media(max-width: 968px) {
+      width: 80%;
+      
+    .code {
+        font-size: 16px;
+        font-style: italic;
+        text-align: left;
+      }
+    }
+
+    @media(max-width: 600px) {
+      font-size: 20px;
+    }
+
+    @media(max-width: 471px) {
+      width: 100%;
+
+      .code {
+        font-size: 15px;
+      }
+    }
+    
+    @media(max-width: 360px) {
+      .code {
+        font-size: 13px;
+      }
+    }
+
 `
 export default function BlogPost({ data }) {
   const post = data.markdownRemark

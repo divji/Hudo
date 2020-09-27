@@ -1,11 +1,9 @@
 ---
-title: How to Dark Mode in React and Tailwind CSS
+title: Markup Prologue
 date: 2020-07-25
 preview: https://octodex.github.com/images/yaktocat.png
-tags: [Lol, goal]
+tags: [Markup]
 ---
-## Me sunt aethera credens inattenuata toto quoque
-
 Lorem *markdownum pennas*, iamque alta, confinia Quirini **fuerat crinis**
 quidem vereri manus absit. Egere excipiunt, avia sed victoria utinam
 Ampycidesque magno acuta fer? Amphitrite sua sed pluribus vaccae Bacchum certa
@@ -32,10 +30,15 @@ Aeneae ignoscere saevit *Sicyonius et* tellus infra; satis sed laudando **unam
 inferiusque** petit. Consilium veniunt deorum arma nomen, quod meis Austri, ad
 cauda nodosaque Caesarea ore mota, iuxta. Ubi cursu rerum namque quondam?
 
-    var duplex = optical_soft;
-    var control = wrap_software_storage(infotainmentAdware);
-    cpc_megabyte -= domain + cardAd + networkKeyboardDocument;
+ <p class="code">
+    var duplex = optical_soft; </br>
+    var control = wrap_software_storage(infotainmentAdware); </br>
+    var control = wrap_software_storage(infotainmentAdware); </br>
+    var control = wrap_software_storage(infotainmentAdware); </br>
+    cpc_megabyte -= domain + cardAd + networkKeyboardDocument; </br>
     bridge_firewall(grayscaleBlog, wddm_rate_t - os);
+ </p>
+ 
 
 Abit quater, ait rates aetatem quod petendum dedit, resupina! Erat caput
 carmine: Iphis tamen verbis extimuit dixit, **praestet** vertice funera ausit

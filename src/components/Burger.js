@@ -12,6 +12,10 @@ export const StyledBurger = styled.button`
         flex-flow: column nowrap;
         margin: 15px 10px 10px 40px;
 
+        &:focus {
+          outline: 1px dotted coral;
+        }
+
     div {
         width: 35px;
         height: 3px;
@@ -41,7 +45,7 @@ const Burger = () => {
     return (
       <>
        <Nav open={open}/>
-        <StyledBurger open={open} onClick={() => setOpen(!open)}>
+        <StyledBurger open={open} onClick={() => setOpen(!open)} aria-label="Burger menu" tabindex="0">
             <div />
             <div />
             <div />
