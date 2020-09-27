@@ -10,4 +10,4 @@ const Layout = ({children}) => {
     )
 }
 
-let x = 1;
+export default Layout;
