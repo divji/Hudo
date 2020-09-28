@@ -110,7 +110,7 @@ export default function Blog ({data}) {
                       <BlogPostTitle>{node.frontmatter.title}</BlogPostTitle>
                       <BlogPostTagContainer>
                         {node.frontmatter.tags.map(tag => {
-                          return <BlogPostTag>{tag}</BlogPostTag>
+                          return <BlogPostTag key={tag}>{tag}</BlogPostTag>
                         })}
                       </BlogPostTagContainer>
                       <Link to={node.fields.slug}>Read More</Link>

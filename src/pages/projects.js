@@ -33,7 +33,7 @@ export default function Projects() {
         <Layout>
             <ColumnContainer>
                 <HeadingProjects>Projects</HeadingProjects>
-                <Card link="https://kolesnik1vladislav.github.io/PIG_GAME/" image={<img src={thunder}></img>} title="Blog" subtitle="Blog using Gatsby" tags={["JS", "CSS"]}></Card>
+                <Card link="https://kolesnik1vladislav.github.io/PIG_GAME/" image={<img src={thunder} alt=""></img>} title="Blog" subtitle="Blog using Gatsby" tags={["JS", "CSS"]}></Card>
             </ColumnContainer>     
         </Layout>
     )

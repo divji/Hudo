@@ -25,7 +25,6 @@ const Nav = ({open}) => {
     return (
         <Ul open={open}>
             <Li><NavLink className="nav__item" to="/">Home</NavLink></Li>
-            <Li><NavLink className="nav__item" to="about">About</NavLink></Li>
             <Li><NavLink className="nav__item" to="/projects/">Projects</NavLink></Li>
             <Li><NavLink className="nav__item" to="/blog/">Blog</NavLink></Li>
         </Ul>

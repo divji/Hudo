@@ -93,7 +93,7 @@ export default function Home() {
           <SectionHeader>
             <Container>
               <SectionHeader className="main__content">
-                <img src={iam} className="main-image"></img>
+                <img src={iam} className="main-image" alt="Profile"></img>
                 <StaticQuery
                   query={graphql`
                     query SiteTitleQuery {
@@ -110,8 +110,8 @@ export default function Home() {
                   />
                <Profession>React Developer</Profession>
                 <IconContainer>
-                      <a href={externalLink.github}  target="_blank" rel="noreferrer" aria-label="github"><FontAwesomeIcon className="fab fa-2x" icon={['fab','github']}/></a>
-                      <a href={externalLink.linkedin}  target="_blank" rel="noreferrer" aria-label="linkedin"><FontAwesomeIcon className="fab fa-2x" icon={['fab','linkedin']}/></a>
+                      <a href={externalLink.github}   target="_blank" rel="noreferrer" aria-label="github"><FontAwesomeIcon className="fab fa-2x" icon={['fab','github']}/></a>
+                      <a href={externalLink.linkedin} target="_blank" rel="noreferrer" aria-label="linkedin"><FontAwesomeIcon className="fab fa-2x" icon={['fab','linkedin']}/></a>
                       <a href={externalLink.medium}   target="_blank" rel="noreferrer" aria-label="medium"><FontAwesomeIcon className="fab fa-2x" icon={['fab','medium']}/></a>
                       <a href={externalLink.twitter}  target="_blank" rel="noreferrer" aria-label="twitter"><FontAwesomeIcon className="fab fa-2x" icon={['fab','twitter']}/></a>
                 </IconContainer>
@@ -119,9 +119,9 @@ export default function Home() {
                       <ParagraphDescription>
                         <span className="heading_span">Hello, I am Vlad Koliesnik! <span aria-label="emoji" role="img">👋</span></span>
                         Front-End Developer, who work with <a className="personal" target="_blank" rel="noreferrer" href="https://medium.com/@blockchain_simplified/what-is-mern-stack-9c867dbad302">MERN stack</a> to create apps and web pages. 
-                        In this web-site you can find information <NavLink to="/" className="personal current">about me</NavLink>, my learning curve and experience.
+                        In this web-site you can find information <a href="https://github.com/divji" target="_blank" rel="noreferrer" className="personal">about me</a>, my learning curve and experience.
                         I develop projects mostly with JavaScript using React and Node.
-                        Check out my <NavLink to="/" className="personal current">personal projects</NavLink>.
+                        Check out my <NavLink to="/projects/" className="personal current">personal projects</NavLink>.
                       </ParagraphDescription>
                 </HeaderDescription>           
               </SectionHeader> 
