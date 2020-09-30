@@ -105,7 +105,7 @@ export default function Blog ({data}) {
           <MainTitle>There are my blog posts</MainTitle>
             <Container>{data.allMarkdownRemark.edges.map(({node}) => {
                 return <BlogPostContainer key={node.id}> 
-                    <BlogPostImage src={node.frontmatter.preview}></BlogPostImage>
+                    <BlogPostImage src={node.frontmatter.preview.publicURL}></BlogPostImage>
                     <BlogPostContent>
                       <BlogPostTitle>{node.frontmatter.title}</BlogPostTitle>
                       <BlogPostTagContainer>
@@ -134,8 +134,10 @@ export const query = graphql`
           frontmatter {
             title
             date
-            preview
             tags
+            preview {
+              publicURL
+            }
           }
         }
       }

@@ -1,33 +1,34 @@
 ---
-title: Markup Prologue
-date: 2020-07-25
-preview: https://octodex.github.com/images/yaktocat.png
+title: What choose Rem,Em,Px?
+date: 2020-07-2513
+preview: img/empxrem.png
 tags: [Markup]
 ---
-Topics covered in this blog post: Semantic, document flow, content-model
-Requirements: Understanding what is HTML tags.
+Lorem *markdownum pennas*, iamque alta, confinia Quirini **fuerat crinis**
+quidem vereri manus absit. Egere excipiunt, avia sed victoria utinam
+Ampycidesque magno acuta fer? Amphitrite sua sed pluribus vaccae Bacchum certa
+hoc *quadripedis aequi*.
 
-The first thing that will be cover what is tag description?
-Tag description it is what tag can contain itself and which tags we can pass into this,
-for example can we include tag p inside ul? No! Why?
+Tellure senumque paelice. Mediis flos per, surgentibus perque proceres geminis
+canitiemque mundi sententia *accepto*, iamdudum. Tenuatus aquis iaculum,
+subducere felicesque quo. Pinnis quid.
 
-Each tag due the spec https://www.w3.org/TR/html/semantics.html#semantics
-has content-model, categories, etc.
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-Content-model describe what we can pass into tag, categories describe where we can pass it.
-
-There are many categories: Metadata content, Flow content, Sectioning, Heading, Phrasing, Embedded. Interactive.
-
-![Imgur](https://imgur.com/PB6sosH)
-![Lol](../../src/assets/img/iam.jpg)
-![Kek](./900.jpg)
-![Kek](C:\Users\Savauge\Desktop\Hudo\content\articles\markup-prologue\img\900.jpg)
+* Sua iacentem telum erat a planissima alba
+* Interea qui Achilles quippe
+* Hunc quae inde flumina conceperat ita operum
+* Quas iactu alieni quaeque mundi et voto
+* Quos visum iactas inter et vobis intra
+* Orbem mollescat gelidi
 
 Tibi subposuere. Fore deus telum, per pete ille est tenetque suum fila. Collo in
 diva pedes **quae**: dicunt orbe ora tergo. Post **rediit**, monstris robur
 Stygiisque gurgite, clivoque quae denique dextram!
 
 ## Hunc pinus pressit bibulas murmure visus saevo
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 Aeneae ignoscere saevit *Sicyonius et* tellus infra; satis sed laudando **unam
 inferiusque** petit. Consilium veniunt deorum arma nomen, quod meis Austri, ad
@@ -41,7 +42,6 @@ cauda nodosaque Caesarea ore mota, iuxta. Ubi cursu rerum namque quondam?
     cpc_megabyte -= domain + cardAd + networkKeyboardDocument; </br>
     bridge_firewall(grayscaleBlog, wddm_rate_t - os);
  </p>
- 
 
 Abit quater, ait rates aetatem quod petendum dedit, resupina! Erat caput
 carmine: Iphis tamen verbis extimuit dixit, **praestet** vertice funera ausit
