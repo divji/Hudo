@@ -4,21 +4,24 @@ date: 2020-07-25
 preview: https://octodex.github.com/images/yaktocat.png
 tags: [Markup]
 ---
-Lorem *markdownum pennas*, iamque alta, confinia Quirini **fuerat crinis**
-quidem vereri manus absit. Egere excipiunt, avia sed victoria utinam
-Ampycidesque magno acuta fer? Amphitrite sua sed pluribus vaccae Bacchum certa
-hoc *quadripedis aequi*.
+Topics covered in this blog post: Semantic, document flow, content-model
+Requirements: Understanding what is HTML tags.
 
-Tellure senumque paelice. Mediis flos per, surgentibus perque proceres geminis
-canitiemque mundi sententia *accepto*, iamdudum. Tenuatus aquis iaculum,
-subducere felicesque quo. Pinnis quid.
+The first thing that will be cover what is tag description?
+Tag description it is what tag can contain itself and which tags we can pass into this,
+for example can we include tag p inside ul? No! Why?
 
-* Sua iacentem telum erat a planissima alba
-* Interea qui Achilles quippe
-* Hunc quae inde flumina conceperat ita operum
-* Quas iactu alieni quaeque mundi et voto
-* Quos visum iactas inter et vobis intra
-* Orbem mollescat gelidi
+Each tag due the spec https://www.w3.org/TR/html/semantics.html#semantics
+has content-model, categories, etc.
+
+Content-model describe what we can pass into tag, categories describe where we can pass it.
+
+There are many categories: Metadata content, Flow content, Sectioning, Heading, Phrasing, Embedded. Interactive.
+
+![Imgur](https://imgur.com/PB6sosH)
+![Lol](../../src/assets/img/iam.jpg)
+![Kek](./900.jpg)
+![Kek](C:\Users\Savauge\Desktop\Hudo\content\articles\markup-prologue\img\900.jpg)
 
 Tibi subposuere. Fore deus telum, per pete ille est tenetque suum fila. Collo in
 diva pedes **quae**: dicunt orbe ora tergo. Post **rediit**, monstris robur
